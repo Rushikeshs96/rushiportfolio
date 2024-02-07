@@ -21,7 +21,7 @@ export default function HeroSection() {
           <button className="btn btn-primary" onClick={redirectToEmail}>Get In Touch</button>
         </div>
         <div className="hero--section--img">
-          <img src="./img/hero_img.png" alt="Hero Section" />
+          <img src={`${process.env.PUBLIC_URL}/img/hero_img.png`} alt="Hero Section" />
         </div>
       </section>
     );
