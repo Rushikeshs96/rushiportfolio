@@ -1,0 +1,78 @@
+{
+    "skills": [
+      {
+        "id": "1",
+        "src": "./img/product-chain-1.png",
+        "title": "Front-End",
+        "description": "Proficient in HTML, CSS, and JavaScript. Skilled in creating responsive and user-friendly web interfaces. Experience with modern frontend frameworks like React js."
+      },
+      {
+        "id": "2",
+        "src": "./img/tag-1.png",
+        "title": "Back-End",
+        "description": "Experienced in server-side languages such as Java (with Spring Boot) and .Net. Proficient in database management using SQL and NoSQL databases."
+      },
+      {
+        "id": "3",
+        "src": "./img/feather-pen-2.png",
+        "title": "Database Management",
+        "description": "Experienced in designing and optimizing database schemas. Skilled in SQL query optimization. Familiar with both relational and NoSQL databases."
+      },
+      {
+        "id": "4",
+        "src": "./img/feather-pen-1.png",
+        "title": "Testing and Quality Assurance",
+        "description": "Skilled in writing unit tests, integration tests, and end-to-end tests. Experience with testing frameworks such Selenium."
+      }
+    ],
+    "portfolio": [
+      {
+        "id": "1",
+        "src": "./img/placeholder-image.png",
+        "title": "TrekHub",
+        "description": "TrekHub is a webapplication. Designed for trekkers and trekking organization. Developed using java, springboot, Dot-net, reactjs.",
+        "link": "View In Github"
+      },
+      {
+        "id": "2",
+        "src": "./img/placeholder-image-1.png",
+        "title": "Constro",
+        "description": "Constro is a static web pages. It showcases various static web design elements and serves as a portfolio piece to demonstrate web design skills.",
+        "link": "View In Github"
+      },
+      {
+        "id": "3",
+        "src": "./img/placeholder-image-2.png",
+        "title": "Beat Bloom",
+        "description": "BeatBloom Player is a sleek and responsive static music player built using HTML, CSS, and JavaScript.BeatBloom Player offers an immersive way to enjoy your music library.",
+        "link": "View In Github"
+      }
+    ],
+    "testimonial": [
+      {
+        "id": "1",
+        "count": "5",
+        "src": "./img/avatar-image.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "author_name": "Dianne Russel",
+        "author_designation": "Starbucks"
+      },
+      {
+        "id": "2",
+        "count": "5",
+        "src": "./img/avatar-image-1.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "author_name": "Kristin Watson",
+        "author_designation": "Louis Vuitton"
+      },
+      {
+        "id": "3",
+        "count": "5",
+        "src": "./img/avatar-image-2.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+        "author_name": "Kathryn Murphy",
+        "author_designation": "McDonald's"
+      }
+    ]
+  }
+  
