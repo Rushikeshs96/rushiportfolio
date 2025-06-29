@@ -4,6 +4,8 @@ import Footer from "../Footer";
 import HeroSection from "../HeroSection";
 import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
+import Education from "../Education";
+import Experience from "../Experience";
 
 
 export default function Home() {
@@ -11,8 +13,10 @@ export default function Home() {
     <>
       <HeroSection />
       <MySkills />
-      <AboutMe />
       <MyPortfolio />
+      <Experience/>
+      <Education />
+      <AboutMe />
       <ContactMe />
       <Footer />
     </>

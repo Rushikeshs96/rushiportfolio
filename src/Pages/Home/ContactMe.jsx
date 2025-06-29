@@ -30,7 +30,7 @@ export default function ContactMe() {
           <h2>Contact Me</h2>
           <br/>
           <p className="text-lg">
-          Mobile: +91 8550950912 / +91 9370530498
+          Mobile: +91 8550950912 
           </p>
           <br/>
           <p className="text-lg">
@@ -82,7 +82,7 @@ export default function ContactMe() {
           </div>
           <label htmlFor="choode-topic" className="contact--label">
             <span className="text-md">Choose a topic</span>
-            <select id="choose-topic" className="contact--input text-md">
+            <select id="choose-topic" name="choose-topic" className="contact--input text-md">
               <option>Select One...</option>
               <option>Job enquiry</option>
               <option>Collaborations</option>
@@ -93,6 +93,7 @@ export default function ContactMe() {
             <textarea
               className="contact--input text-md"
               id="message"
+              name="message"
               rows="8"
               placeholder="Type your message..."
             />
