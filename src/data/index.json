@@ -62,7 +62,7 @@
    "portfolio": [
       {
         "id": "1",
-        "src": "/rushiportfolio/img/placeholder-image.png",
+        "src": "/rushiportfolio/img/cadenceking.png",
         "title": "CadenceKing - Sales Automation Platform",
         "description": "An AI-powered sales outreach platform to automate and enhance communication. Built professionally with .NET Core, Angular, and deployed on Azure, featuring OpenAI and Twilio API integrations.",
         "link": "View Details"
