@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rushiportfolio/static/css/main.a9f31d86.css",
+    "main.js": "/rushiportfolio/static/js/main.1297f9ab.js",
+    "static/js/592.6d7de513.chunk.js": "/rushiportfolio/static/js/592.6d7de513.chunk.js",
+    "index.html": "/rushiportfolio/index.html",
+    "main.a9f31d86.css.map": "/rushiportfolio/static/css/main.a9f31d86.css.map",
+    "main.1297f9ab.js.map": "/rushiportfolio/static/js/main.1297f9ab.js.map",
+    "592.6d7de513.chunk.js.map": "/rushiportfolio/static/js/592.6d7de513.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9f31d86.css",
+    "static/js/main.1297f9ab.js"
+  ]
+}
