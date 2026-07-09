@@ -8,14 +8,14 @@ export default function HeroSection() {
                 <div className="hero--section--content">
                     <p className="section--title">Hey, I'm Rushikesh</p>
                     <h1 className="hero--section--title">
-                        <span className="hero--section-title--color">Software</span>
+                        <span className="hero--section--title--color">Software</span>
                         {" "}
                         <br/>
                         Engineer
                     </h1>
                     <p className="hero--section-description">
-                        A developer with nearly 2 years of professional experience engineering scalable, production-grade applications.                           
-                     <br/> I focus on developing efficient server-side logic, managing cloud deployments, and ensuring seamless integration between the backend and client applications.
+                        I build reliable, scalable software solutions that support real business workflows from concept to production.
+                        My focus is on clean engineering, thoughtful system design, and delivering product experiences that are fast, maintainable, and easy to use.
                     </p>
                 </div>
                 <button className="btn btn-primary"

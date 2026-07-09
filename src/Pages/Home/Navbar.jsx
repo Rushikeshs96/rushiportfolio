@@ -37,14 +37,17 @@ function Navbar() {
       <div>
         <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="Logoipsum" />
       </div>
-      <a
+      <button
+        type="button"
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
+        aria-label="Toggle navigation menu"
+        aria-expanded={navActive}
       >
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
-      </a>
+      </button>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>

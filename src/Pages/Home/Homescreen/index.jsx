@@ -6,6 +6,7 @@ import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
 import Education from "../Education";
 import Experience from "../Experience";
+import Certifications from "../Certifications";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <MySkills />
       <MyPortfolio />
       <Experience/>
+      <Certifications />
       <Education />
       <AboutMe />
       <ContactMe />

@@ -1,31 +1,49 @@
 {
-        "skills": [
-      {
-        "id": "1",
-        "src": "/rushiportfolio/img/product-chain-1.png",
-        "title": "Front-End Development",
-        "description": "Skilled in building dynamic and responsive user interfaces with Angular and TypeScript. Proficient in semantic HTML5 and modern CSS3 for crafting intuitive web experiences."
-      },
-      {
-        "id": "2",
-        "src": "/rushiportfolio/img/tag-1.png",
-        "title": "Back-End & Architecture",
-        "description": "Expertise in building scalable RESTful APIs with C# and ASP.NET Core. Experienced in data access using Entity Framework & LINQ, background processing with Hangfire, and asynchronous messaging with MassTransit & RabbitMQ."
-      },
-      {
-        "id": "3",
-        "src": "/rushiportfolio/img/feather-pen-1.png",
-        "title": "Cloud & DevOps",
-        "description": "Proficient in deploying applications to Microsoft Azure (App Service,Blob Storage,Azure Database for PostgreSQL/MySQL, Azure Cache for Redis, Key Vault, ServiceBus SQL). Skilled in Infrastructure as Code (IaC) with Bicep, containerization with Docker, and project tracking with Jira."
-      },
-      {
-        "id": "4",
-        "src": "/rushiportfolio/img/feather-pen-2.png",
-        "title": "Databases & Tools",
-        "description": "Strong proficiency in relational database management with SQL. Experienced with in-memory data stores like Redis for caching. Adept at using development tools including Visual Studio, VS Code, and Postman."
-      }
-    ],
-     "education": [
+  "skills": [
+    {
+      "id": "1",
+      "src": "/rushiportfolio/img/product-chain-1.png",
+      "title": "Backend Development",
+      "description": "Design and develop scalable server-side applications, REST APIs, business logic, and data access layers for production systems.",
+      "tools": ["C#", ".NET Core", "ASP.NET Core", "REST API", "Entity Framework Core", "LINQ"]
+    },
+    {
+      "id": "2",
+      "src": "/rushiportfolio/img/tag-1.png",
+      "title": "Frontend Development",
+      "description": "Build responsive, user-friendly web interfaces with reusable components, clean layouts, and smooth integration with backend APIs.",
+      "tools": ["Angular", "TypeScript", "JavaScript", "HTML5", "CSS3", "Bootstrap"]
+    },
+    {
+      "id": "3",
+      "src": "/rushiportfolio/img/feather-pen-1.png",
+      "title": "Cloud & DevOps",
+      "description": "Deploy, configure, and automate cloud resources with repeatable infrastructure and production-focused release practices.",
+      "tools": ["Microsoft Azure", "Azure App Service", "Azure Blob Storage", "Azure Key Vault", "Bicep", "Docker"]
+    },
+    {
+      "id": "4",
+      "src": "/rushiportfolio/img/feather-pen-2.png",
+      "title": "Databases & Caching",
+      "description": "Model, query, migrate, and optimize relational data while using caching to improve application performance.",
+      "tools": ["SQL", "PostgreSQL", "MySQL", "Azure SQL", "Azure Database", "Redis", "Azure Cache for Redis"]
+    },
+    {
+      "id": "5",
+      "src": "/rushiportfolio/img/product-chain-1.png",
+      "title": "Messaging & Background Jobs",
+      "description": "Create reliable asynchronous workflows, background processing pipelines, and decoupled service communication.",
+      "tools": ["MassTransit", "RabbitMQ", "Azure Service Bus", "Hangfire", "Background Jobs"]
+    },
+    {
+      "id": "6",
+      "src": "/rushiportfolio/img/tag-1.png",
+      "title": "AI, APIs & Tools",
+      "description": "Integrate third-party services, test APIs, and collaborate through modern development workflows and Agile practices.",
+      "tools": ["OpenAI API","Rag","MCP","Gen AI", "Twilio API", "Postman", "Visual Studio", "VS Code", "Git", "Jira"]
+    }
+  ],
+  "education": [
     {
       "id": "1",
       "degree": "Post Graduate Diploma in Advanced Computing",
@@ -41,86 +59,114 @@
       "score": "Percentage: 76.28%"
     }
   ],
+  "certifications": [
+    {
+      "id": "1",
+      "name": "Microsoft Certified: Azure Fundamentals",
+      "issuer": "Microsoft",
+      "credential": "AZ-900",
+      "date": "Sep 2025",
+      "description": "Validated foundational knowledge of Microsoft Azure cloud concepts, core services, security, governance, pricing, and support.",
+      "link": "View Credential",
+      "linkUrl": "https://learn.microsoft.com/en-us/users/rushikeshsapkal-3095/credentials/584058c5a956b052"
+    }
+  ],
   "experience": [
     {
       "id": "1",
       "title": "Software Engineer",
       "company": "Algonautic System Pvt Ltd",
-      "date": "Jun 2024 – Present",
+      "date": "Jun 2024 - Present",
       "location": "Pune, India",
+      "summary": "Contributing to production-grade business applications with ownership across backend services, Angular interfaces, Azure cloud deployment, AI integrations, and system reliability.",
       "description": [
-        "Cloud Deployment & Automation (IaC): Spearheaded the cloud deployment strategy on Microsoft Azure, utilizing Bicep (IaC) to automate the provisioning of App Services, SQL Database, and Redis Cache, ensuring repeatable and reliable environments",
-        "AI Integration & Feature Development: Engineered a core feature integrating the OpenAI API to generate highly personalized, context-aware emails for sales outreach. Also developed an AI-powered root cause analysis tool for maintenance reports",
-        "Full-Stack Application Development: Designed and implemented RESTful APIs using ASP.NET Core and built responsive, dynamic front-end interfaces with Angular, delivering end-to-end features for sales and asset management platforms",
-        "Asynchronous Messaging & Background Processing: Implemented a robust, asynchronous messaging system using MassTransit and RabbitMQ to decouple services. Utilized Hangfire for managing and executing background jobs reliably",
-        "Third-Party API Integration: Integrated the Twilio API to embed calling, voicemail, and voice greeting functionalities directly into the application, creating a unified communication hub for sales agents",
-        "Database & System Architecture: Architected database schemas and managed data migrations using Entity Framework Core. Designed and implemented modules for work order management, asset tracking, and inventory control",
-        "Collaboration & Agile: Worked closely with cross-functional teams in an Agile environment, participating in sprint planning, code reviews, and retrospectives to ensure smooth and efficient project execution."
+        "Delivered end-to-end product features across enterprise web applications, covering API design, Angular UI development, data modeling, deployment support, and production issue resolution.",
+        "Built AI-assisted capabilities using the OpenAI API, including personalized sales outreach generation and maintenance report root cause analysis to improve user productivity.",
+        "Developed secure and scalable REST APIs with ASP.NET Core, Entity Framework Core, LINQ, SQL, PostgreSQL, and MySQL for core workflows such as work orders, assets, inventory, and sales engagement.",
+        "Automated Azure infrastructure provisioning with Bicep across App Services, databases, Redis, storage, Key Vault, and service integrations, improving environment consistency and deployment reliability.",
+        "Implemented asynchronous communication and background processing using MassTransit, RabbitMQ, Azure Service Bus, and Hangfire to support resilient long-running workflows.",
+        "Integrated Twilio calling, voicemail, and voice greeting features into the sales platform, helping teams manage customer communication from one connected product experience.",
+        "Handled Chrome extension deployment activities and supported Gmail CASA Tier 2 security compliance requirements for application integrations.",
+        "Performed web application vulnerability scanning with OWASP ZAP and helped improve application security by identifying, validating, and addressing security risks.",
+        "Worked closely with product, QA, and engineering teams in Agile ceremonies, code reviews, and release activities to ship maintainable features with professional engineering standards."
       ]
     }
   ],
-   "portfolio": [
-      {
-        "id": "1",
-        "src": "/rushiportfolio/img/cadenceking.png",
-        "title": "CadenceKing - Sales Automation Platform",
-        "description": "An AI-powered sales outreach platform to automate and enhance communication. Built professionally with .NET Core, Angular, and deployed on Azure, featuring OpenAI and Twilio API integrations.",
-        "link": "View Details"
-      },
-      {
-        "id": "2",
-        "src": "/rushiportfolio/img/maintease.png",
-        "title": "Maintease - Asset Management System",
-        "description": "A comprehensive Maintenance Management System (CMMS) to streamline work orders and asset tracking. Developed using .NET Core with an AI-powered root cause analysis  feature.",
-        "link": "View Details"
-      },
-      {
-        "id": "3",
-        "src": "/rushiportfolio/img/placeholder-image.png",
-        "title": "TrekHub",
-        "description": "A personal project designed for trekkers and trekking organizations. Developed as part of my post-graduate studies using Java, Spring Boot, .NET, and React.",
-        "link": "View In Github"
-      },
-      {
-        "id": "4",
-        "src": "/rushiportfolio/img/placeholder-image-1.png",
-        "title": "Constro",
-        "description": "A static portfolio website showcasing various web design elements and responsive layouts using HTML and CSS.",
-        "link": "View In Github"
-      },
-      {
-        "id": "5",
-        "src": "/rushiportfolio/img/placeholder-image-2.png",
-        "title": "Beat Bloom",
-        "description": "A sleek and responsive static music player built using HTML, CSS, and vanilla JavaScript to demonstrate front-end interactivity.",
-        "link": "View In Github"
-      }
-    ],
-    "testimonial": [
-      {
-        "id": "1",
-        "count": "5",
-        "src": "/img/avatar-image.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Dianne Russel",
-        "author_designation": "Starbucks"
-      },
-      {
-        "id": "2",
-        "count": "5",
-        "src": "./img/avatar-image-1.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kristin Watson",
-        "author_designation": "Louis Vuitton"
-      },
-      {
-        "id": "3",
-        "count": "5",
-        "src": "./img/avatar-image-2.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-        "author_name": "Kathryn Murphy",
-        "author_designation": "McDonald's"
-      }
-    ]
-  }
-  
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "/rushiportfolio/img/cadenceking.png",
+      "title": "CadenceKing - Sales Automation Platform",
+      "description": "AI-powered sales outreach platform built with .NET Core, Angular, Azure, OpenAI API, and Twilio to automate personalized communication and sales engagement workflows.",
+      "link": "View Details",
+      "linkUrl": "https://www.cadenceking.com"
+    },
+    {
+      "id": "2",
+      "enabled": false,
+      "src": "/rushiportfolio/img/cadenceking.png",
+      "title": "CadenceKing - Chrome Extension",
+      "description": "Chrome extension for CadenceKing that supports sales productivity workflows directly from the browser and connects users with the platform experience.",
+      "link": "View Extension",
+      "linkUrl": "https://chromewebstore.google.com/detail/cadenceking/jidleogiaofdihleaellapkbbekphhea"
+    },
+    {
+      "id": "3",
+      "src": "/rushiportfolio/img/maintease.png",
+      "title": "Maintease - Asset Management System",
+      "description": "Computerized maintenance management system for work orders, asset tracking, inventory control, and AI-assisted root cause analysis using .NET Core and Azure.",
+      "link": "View Details",
+      "linkUrl": "https://maintease.com"
+    },
+    {
+      "id": "4",
+      "src": "/rushiportfolio/img/placeholder-image.png",
+      "title": "TrekHub",
+      "description": "A trekking platform for trekkers and trekking organizations, created during post-graduate studies with Java, Spring Boot, .NET, and React.",
+      "link": "View In GitHub",
+      "linkUrl": "https://github.com/Rushikeshs96"
+    },
+    {
+      "id": "5",
+      "src": "/rushiportfolio/img/placeholder-image-1.png",
+      "title": "Constro",
+      "description": "A responsive static portfolio website showcasing clean page sections, layout structure, and visual presentation using HTML and CSS.",
+      "link": "View In GitHub",
+      "linkUrl": "https://github.com/Rushikeshs96"
+    },
+    {
+      "id": "6",
+      "src": "/rushiportfolio/img/placeholder-image-2.png",
+      "title": "Beat Bloom",
+      "description": "A sleek static music player built with HTML, CSS, and vanilla JavaScript to demonstrate front-end interaction and responsive styling.",
+      "link": "View In GitHub",
+      "linkUrl": "https://github.com/Rushikeshs96"
+    }
+  ],
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "/img/avatar-image.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Dianne Russel",
+      "author_designation": "Starbucks"
+    },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-1.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kristin Watson",
+      "author_designation": "Louis Vuitton"
+    },
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/avatar-image-2.png",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "author_name": "Kathryn Murphy",
+      "author_designation": "McDonald's"
+    }
+  ]
+}

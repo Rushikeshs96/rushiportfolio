@@ -18,6 +18,9 @@ export default function Experience() {
               <p className="experience--card--company">{item.company}</p>
               <p className="experience--card--location">{item.location}</p>
             </div>
+            {item.summary && (
+              <p className="experience--card--summary">{item.summary}</p>
+            )}
             <div className="experience--card--description">
               <ul>
                 {item.description.map((point, pointIndex) => (
