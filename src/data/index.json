@@ -103,20 +103,19 @@
     },
     {
       "id": "2",
-      "enabled": false,
-      "src": "/rushiportfolio/img/cadenceking.png",
-      "title": "CadenceKing - Chrome Extension",
-      "description": "Chrome extension for CadenceKing that supports sales productivity workflows directly from the browser and connects users with the platform experience.",
-      "link": "View Extension",
-      "linkUrl": "https://chromewebstore.google.com/detail/cadenceking/jidleogiaofdihleaellapkbbekphhea"
-    },
-    {
-      "id": "3",
       "src": "/rushiportfolio/img/maintease.png",
       "title": "Maintease - Asset Management System",
       "description": "Computerized maintenance management system for work orders, asset tracking, inventory control, and AI-assisted root cause analysis using .NET Core and Azure.",
       "link": "View Details",
       "linkUrl": "https://maintease.com"
+    },
+     {
+      "id": "3",
+      "src": "/rushiportfolio/img/cadking-ext.png",
+      "title": "CadenceKing - Chrome Extension",
+      "description": "Chrome extension for CadenceKing that integrates sales outreach workflows directly into LinkedIn.Enables SDRs to view and execute CadenceKing tasks directly from prospect profiles.Synchronizes prospect activity and task updates with the CadenceKing platform in real time.Reduces manual data entry and tab switching, streamlining LinkedIn outreach workflows.",
+      "link": "View Extension",
+      "linkUrl": "https://chromewebstore.google.com/detail/jidleogiaofdihleaellapkbbekphhea?utm_source=item-share-cb"
     },
     {
       "id": "4",
