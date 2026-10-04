@@ -2,6 +2,51 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deploy Latest Changes to GitHub Pages
+
+Use these steps when you are working on the `main` branch and want to publish the latest portfolio changes.
+
+1. Make sure you are on `main`:
+
+   ```bash
+   git checkout main
+   ```
+
+2. Save and commit your latest changes:
+
+   ```bash
+   git status
+   git add .
+   git commit -m "Update portfolio"
+   ```
+
+3. Push the source code changes to GitHub:
+
+   ```bash
+   git push origin main
+   ```
+
+4. Build and publish the site to the `gh-pages` branch:
+
+   ```bash
+   npm run deploy
+   ```
+
+5. In GitHub, confirm Pages is configured to serve from:
+
+   ```text
+   Branch: gh-pages
+   Folder: /root
+   ```
+
+The live site URL is:
+
+```text
+https://Rushikeshs96.github.io/rushiportfolio/
+```
+
+Important: Do not manually switch to the `gh-pages` branch to edit files. Keep code changes on `main`; `npm run deploy` automatically creates the production build and publishes it to `gh-pages`.
+
 ## Available Scripts
 
 In the project directory, you can run:
